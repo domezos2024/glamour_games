@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>29</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>com.glamourgames.android</ApplicationId>
+    <ApplicationVersion>181</ApplicationVersion>
+    <ApplicationDisplayVersion>1.8.1</ApplicationDisplayVersion>
+    <Authors>Michael Bergfeld</Authors>
+    <Company>DoMeZos-Ware</Company>
+    <Copyright>Copyright (c) 2026 Michael Bergfeld @ DoMeZos-Ware</Copyright>
+    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <AndroidEnableMarshalMethods>false</AndroidEnableMarshalMethods>
+    <NoWarn>$(NoWarn);CS0618;CS8632;CS0649;CS0219</NoWarn>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release' And Exists('$(MSBuildThisFileDirectory)..\signing\glamourgames-upload.keystore')">
+    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidSigningKeyStore>$(MSBuildThisFileDirectory)..\signing\glamourgames-upload.keystore</AndroidSigningKeyStore>
+    <AndroidSigningKeyAlias>glamourgames</AndroidSigningKeyAlias>
+    <AndroidSigningStorePass>file:$(MSBuildThisFileDirectory)..\signing\store.pass</AndroidSigningStorePass>
+    <AndroidSigningKeyPass>file:$(MSBuildThisFileDirectory)..\signing\key.pass</AndroidSigningKeyPass>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="4.152.1" />
+    <PackageReference Include="SkiaSharp.Views" Version="4.152.1" />
+  </ItemGroup>
+  <ItemGroup><AndroidAsset Include="Assets\**\*" /></ItemGroup>
+  <ItemGroup>
+    <Content Include="app.ico" />
+  </ItemGroup>
+</Project>

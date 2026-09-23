@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/AndroidApp/">
+    <Project Path="AndroidApp/GlamourGames.Android.csproj">
+      <Deploy />
+    </Project>
+  </Folder>
+</Solution>

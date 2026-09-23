@@ -1,0 +1,21 @@
+# Build
+bin/
+obj/
+publish/
+*.apk
+*.aab
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+# Signing (niemals committen)
+signing/
+*.keystore
+*.jks
+*.pass
+# Interne Test-/Uebergabeartefakte
+Tests/
+ROADMAP_KUNDENFREIGABE.md
+UEBERGABE_HINWEIS.md
+codingbeendet.md
