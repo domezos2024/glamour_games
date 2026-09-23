@@ -54,10 +54,18 @@ Die App ist die Android-Umsetzung der gleichnamigen Windows-Version. Spielregeln
 | <img src="docs/screenshots/vier-gewinnt.jpg" alt="Vier Gewinnt"> Vier Gewinnt | <img src="docs/screenshots/schiffe-versenken.jpg" alt="Schiffe Versenken"> Schiffe Versenken |
 | <img src="docs/screenshots/snake.jpg" alt="Snake"> Snake | <img src="docs/screenshots/kniffel.jpg" alt="Kniffel"> Kniffel |
 | <img src="docs/screenshots/nim.jpg" alt="Nim"> Nim | <img src="docs/screenshots/buch-der-pharaonen.jpg" alt="Buch der Pharaonen"> Buch der Pharaonen |
-| <img src="docs/screenshots/freispiele.jpg" alt="Freispiele"> Freispiele | <img src="docs/screenshots/blackjack.jpg" alt="Black Jack"> Black Jack |
-| <img src="docs/screenshots/poker.jpg" alt="Poker"> Poker | <img src="docs/screenshots/options.jpg" alt="Optionen"> Optionen |
+| <img src="docs/screenshots/blackjack.jpg" alt="Black Jack"> Black Jack | <img src="docs/screenshots/poker.jpg" alt="Poker"> Poker |
+| <img src="docs/screenshots/options.jpg" alt="Optionen"> Optionen | |
 
 </details>
+
+## Wer fängt an? Der Münzwurf
+
+Jedes neue Zwei-Spieler-Spiel beginnt mit einem animierten Münzwurf: Spieler 1 wählt Kopf oder Zahl, die Münze wirbelt durch die Luft – und wer richtig liegt, darf anfangen. In den Folgerunden wechselt der Startspieler automatisch ab.
+
+<div align="center">
+<img src="docs/screenshots/muenzwurf.jpg" width="900" alt="Münzwurf: Wahl, Wurf, Ergebnis">
+</div>
 
 ## Das steckt drin
 
