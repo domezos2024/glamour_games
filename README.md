@@ -11,6 +11,7 @@ Kein Werbebanner. Keine Käufe. Kein Konto. Kein Internet nötig. Einfach spiele
 [![Release](https://img.shields.io/github/v/release/domezos2024/glamour_games?style=for-the-badge&color=ff2fa8&label=Version)](https://github.com/domezos2024/glamour_games/releases/latest)
 [![Download APK](https://img.shields.io/badge/Download-APK-00e5ff?style=for-the-badge&logo=android&logoColor=white)](https://github.com/domezos2024/glamour_games/releases/latest/download/GlamourGames-1.8.1.apk)
 [![Android 10+](https://img.shields.io/badge/Android-10%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white)](#installation)
+[![Windows-Version](https://img.shields.io/badge/Auch%20f%C3%BCr-Windows-00a4ef?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/domezos2024/glamour_games_windows)
 [![.NET 10](https://img.shields.io/badge/.NET-10-512bd4?style=for-the-badge&logo=dotnet&logoColor=white)](#technik)
 [![License: MIT](https://img.shields.io/badge/Lizenz-MIT-ffc400?style=for-the-badge)](LICENSE)
 
@@ -18,13 +19,15 @@ Kein Werbebanner. Keine Käufe. Kein Konto. Kein Internet nötig. Einfach spiele
 
 </div>
 
+> **Auch für Windows:** Die gleiche Spielesammlung gibt es für den PC – **[Glamour Games für Windows](https://github.com/domezos2024/glamour_games_windows)** (Download als ZIP, keine Installation nötig).
+
 ---
 
 ## Was ist Glamour Games?
 
 Glamour Games ist eine Spielesammlung für Android im Neon-Glamour-Look: leuchtende Kacheln, Glow- und Bloom-Effekte, Partikel-Feuerwerk, 3D-Würfel und eine Blumenwiese, die im Hintergrund lebt. Die meisten Spiele sind für **zwei Personen an einem Gerät** gemacht – ideal für Eltern und Kinder, Paare oder Freunde. Snake, der Slot und Poker gegen den Computer sind auch allein spielbar.
 
-Die App ist die Android-Umsetzung der gleichnamigen Windows-Version. Spielregeln, Grafiken und Animationen entsprechen dem Original; angepasst wurde nur, was Touch-Bedienung und Android erfordern.
+Die App ist die Android-Umsetzung der gleichnamigen [Windows-Version](https://github.com/domezos2024/glamour_games_windows). Spielregeln, Grafiken und Animationen entsprechen dem Original; angepasst wurde nur, was Touch-Bedienung und Android erfordern.
 
 ## Die 10 Spiele
 
@@ -161,4 +164,6 @@ Quellcode unter der [MIT-Lizenz](LICENSE). Mitgelieferte Schriften und Bibliothe
 <div align="center">
 <br>
 <b>Glamour Games 1.8.1</b> – erstellt von Michael Bergfeld @ DoMeZos-Ware 2026
+<br>
+<a href="https://github.com/domezos2024/glamour_games">Android-Version</a> · <a href="https://github.com/domezos2024/glamour_games_windows">Windows-Version</a>
 </div>
